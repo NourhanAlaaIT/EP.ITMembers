@@ -1,0 +1,83 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom left, #058BB8 0%, #14D9D9 100%);
+  color: #072A40;
+  overflow: hidden;
+  font-size: 20px;
+  font-family: monospace;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, .1);
+  border-radius: 10px;
+}
+.dropdown-item:hover {
+  background-color: rgba(7, 42, 64, 0.1);
+}
+a, .fa-chevron-down {
+  color: #072A40 !important;
+}
+.mainCard {
+  text-align: center;
+  width: 50%;
+  margin: 25vh auto;
+}
+.btn {
+  background-color: #000742 !important;
+  color: #F277D1 !important;
+  width: 120px;
+  border-radius: 10px;
+  outline: 0;}
+.left-btn {
+  background-color: rgba(0, 0, 0, 0);
+  color: #000742;
+  border: 0;
+  float: right;
+  margin: 20vh 50px 0 0;
+}
+.courseMenu {
+  margin: 6rem auto;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  max-width: 500px;
+  white-space: normal;
+  margin: 0 30px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.scrollMenu {
+white-space: nowrap;
+width: 100%;
+overflow: hidden;
+text-align: center;
+}
+.card-con {
+  overflow-x: scroll;
+  width: 100%;
+  margin: -17px auto;
+  padding: 60px;
+}
+.courseDesc {
+  white-space: normal;
+}
+.arrowBtns {
+  margin: 18vh -7.5vw 0 78vw;
+}
+.fa-chevron-left {
+  margin-right: 25px;
+}
+@media (max-width: 870px) {
+  .left-btn {
+    margin: 14vh 3.5vw 0 78vw;
+  }
+  .arrowBtns {
+    margin: 16vh -0.5vw 0 78vw;
+  }
+}
