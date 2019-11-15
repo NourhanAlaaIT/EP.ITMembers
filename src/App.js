@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import Courses from "./components/Courses";
+import Blogs from './components/Blogs';
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     <React.Fragment>
       <Navbar />
       <Header />
-      <Courses />
+      <Blogs />
       <Footer />
     </React.Fragment>
   );
