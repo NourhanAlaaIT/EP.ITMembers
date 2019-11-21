@@ -1,18 +1,15 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Blogs from './components/Blogs';
-import Footer from "./components/Footer";
+import LogIn from "./components/LogIn";
+import SignUp from "./components/SignUP";
 
 const App = () => {
   return (
-    <React.Fragment>
-      <Navbar />
-      <Header />
-      <Blogs />
-      <Footer />
-    </React.Fragment>
+    <BrowserRouter>
+      <Route exact path="/log-in" component={LogIn} />
+      <Route exact path="/sign-up" component={SignUp} />
+    </BrowserRouter>
   );
 };
 
